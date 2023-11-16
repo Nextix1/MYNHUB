@@ -5,6 +5,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddLabel("New Script")
 Tab:AddTextbox({
 	Name = "New script",
 	Default = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Nextix1/Nextix-Hub/main/Loader'))()",
